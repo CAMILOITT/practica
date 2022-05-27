@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(0, 0, 0);
+  overflow: hidden;
+}
+.contenedor-1 {
+  background-color: peru;
+  height: 100vh;
+  display: flex;
+}
+.contenedor {
+  background-color: #fff;
+  width: 90%;
+  margin: auto auto;
+}
+header {
+  text-align: center;
+  width: 100%;
+  padding: 10px 0px;
+}
+main {
+  background-color: skyblue;
+  display: flex;
+}
+main img {
+  width: 46%;
+  padding: 0% 2%;
+}
+main article {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding-right: 20px;
+}
+main article h3 {
+  text-align: center;
+  padding: 15px 0;
+  text-transform: capitalize;
+}
+main article p {
+  margin: 20px 0px;
+}
+main article .comentario {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+main article .comentario input {
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+  width: 84%;
+  background: none;
+}
+main article .comentario input::placeholder {
+  color: white;
+  font-size: 18px;
+}
+main article .comentario button {
+  width: 15%;
+  height: 30px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+footer {
+  background-color: darkred;
+  height: 30px;
+  display: inline-block;
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-around;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer p {
+  color: white;
+}
